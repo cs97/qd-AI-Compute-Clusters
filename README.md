@@ -46,3 +46,8 @@ ulimit -l
 	--temp 0.6 --parallel 1 -fa on \
 	--rpc 192.168.1.3:50052  --tensor-split 1,1
 ```
+
+# Cluster info
+```
+./build/bin/llama-server --rpc 192.168.1.3:50052 --list-devices
+```
