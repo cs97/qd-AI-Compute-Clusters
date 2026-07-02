@@ -19,7 +19,7 @@ cmake -B build -DGGML_VULKAN=1 -DGGML_RPC=ON -DCMAKE_BUILD_TYPE=Release
 cmake --build build --config Release -j$(nproc)
 ```
 
-# system config rpc server
+# setup rpc-server
 ```
 sudo nano /etc/security/limits.conf
 ```
@@ -33,9 +33,6 @@ reboot
 ```
 ulimit -l
 ```
-
-
-#start rpc-server
 ```
 ./build/bin/ggml-rpc-server -p 50052 --host 0.0.0.0
 ```
