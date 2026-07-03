@@ -45,7 +45,7 @@ ulimit -l
 	--spec-type draft-mtp --spec-draft-n-max 2 \
 	--temp 0.6 --parallel 1 -fa on \
 	--rpc 192.168.1.3:50052  --tensor-split 1,1,1 \
-	--device CPU,Vulkan0,RPC0
+	--device Vulkan0,RPC0 \
 	--ctx-size 65536
 ```
 
