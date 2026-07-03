@@ -34,7 +34,7 @@ reboot
 ulimit -l
 ```
 ```
-./build/bin/ggml-rpc-server -p 50052 --host 0.0.0.0
+./build/bin/ggml-rpc-server -p 50052 --host 0.0.0.0 --device CPU
 ```
 
 
@@ -44,7 +44,8 @@ ulimit -l
 	--mlock --no-mmap \
 	--spec-type draft-mtp --spec-draft-n-max 2 \
 	--temp 0.6 --parallel 1 -fa on \
-	--rpc 192.168.1.3:50052  --tensor-split 1,1 \
+	--rpc 192.168.1.3:50052  --tensor-split 1,1,1 \
+	--device CPU,Vulkan0,RPC0
 	--ctx-size 65536
 ```
 
