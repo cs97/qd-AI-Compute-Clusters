@@ -15,3 +15,6 @@ wget https://huggingface.co/onion515/Qwen3.5-9B-DFlash-GGUF/resolve/main/qwen3.5
 	--spec-draft-device Vulkan0
 ```
 
+| token | device |
+| ----- | ------ |
+| 10 | CPU |
