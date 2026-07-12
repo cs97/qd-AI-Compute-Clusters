@@ -16,6 +16,8 @@ wget https://huggingface.co/onion515/Qwen3.5-9B-DFlash-GGUF/resolve/main/qwen3.5
 ```
 # SETUP
 
+| Device | Vendor |
+| ------ | ------ |
 | CPU | Ryzen 7900X |
 | GPU | Radeon RX 5700 XT|
 
