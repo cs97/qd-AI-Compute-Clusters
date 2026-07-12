@@ -14,7 +14,10 @@ wget https://huggingface.co/onion515/Qwen3.5-9B-DFlash-GGUF/resolve/main/qwen3.5
 	--spec-draft-n-max 3 \
 	--spec-draft-device Vulkan0
 ```
+# SETUP
 
+| CPU | Ryzen 7900X |
+| GPU | Radeon RX 5700 XT|
 
 | token/s | device | draft model | spec-draft-n-max |
 | ------- | ------ | ----------- | ---------------- |
