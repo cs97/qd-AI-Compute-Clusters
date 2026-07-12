@@ -29,4 +29,4 @@ wget https://huggingface.co/onion515/Qwen3.5-9B-DFlash-GGUF/resolve/main/qwen3.5
 | 48 | GPU | none | 0 |
 | 70 | GPU | MTP | 2 |
 | 63 | GPU | DFLASH | 2 |
-| 60 | GPU | DFLASH | 3 |
+| 63 | GPU | DFLASH | 3 |
