@@ -34,6 +34,12 @@ reboot
 ulimit -l
 ```
 ```
+echo "high" | sudo tee /sys/class/drm/card0/device/power_dpm_force_performance_level
+```
+```
+echo "high" | doas tee /sys/class/drm/card0/device/power_dpm_force_performance_level
+```
+```
 ./build/bin/ggml-rpc-server -p 50052 --host 0.0.0.0 --device CPU
 ```
 
