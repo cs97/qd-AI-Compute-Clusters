@@ -37,6 +37,11 @@ wget https://huggingface.co/onion515/Qwen3.5-9B-DFlash-GGUF/resolve/main/qwen3.5
 
 # Qwen3.6-27B-Q4_K_M
 ```
+wget https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/resolve/main/Qwen3.6-27B-Q4_K_M.gguf
+```
+wget https://huggingface.co/Alittlehammmer/Qwen3.6-27B-DFlash-GGUF-llama.cpp/resolve/main/Qwen3.6-27B-DFlash-Q4_K_M.gguf
+```
+```
 ./build/bin/llama-server -m ~/llm/Qwen3.6-27B-Q4_K_M.gguf \
 	--device none --mlock --no-mmap \
 	--spec-draft-model ~/llm/Qwen3.6-27B-DFlash-Q4_K_M.gguf \
